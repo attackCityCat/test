@@ -20,5 +20,5 @@ jpa:
   ddl-auto: update
 
 mybatis:
-  mapper-locations: classpath:mybatis/*Mapper.xml
+  mapper-locations: classpath:mybatis/mapperbook.xml
   config-locations: classpath:mybatis/confg.xml
