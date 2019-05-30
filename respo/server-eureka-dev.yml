@@ -13,11 +13,11 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8080/eureka/
-jpa:
-  database: mysql
-  show-sql: true
-  hibernate:
-  ddl-auto: update
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+    ddl-auto: update
 
   mybatis:
     mapper-locations: classpath:mybatis/mapper/*.xml
