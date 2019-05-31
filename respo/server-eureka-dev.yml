@@ -18,7 +18,3 @@ eureka:
     show-sql: true
     hibernate:
     ddl-auto: update
-
-  mybatis:
-    mapper-locations: classpath:mybatis/mapper/*.xml
-    config-locations: classpath:mybatis/confg.xml
